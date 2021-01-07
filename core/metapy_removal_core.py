@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 
 
-def __get_modified_files(path, minutes_ago, current_time=datetime.now(), minutes_buffer=1):
+def get_modified_files(path, minutes_ago, current_time=datetime.now(), minutes_buffer=1):
     """Get all modified files in the last X+buffer minutes in the given path
 
     Parameters:
